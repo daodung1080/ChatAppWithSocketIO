@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:focusableInTouchMode="true"
+        android:focusable="false">
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterMaxLength="25"
+                app:counterEnabled="true"
+                app:hintEnabled="false"
+                android:layout_margin="10dp"
+                android:paddingTop="10dp">
+
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtRegister"
+                    android:hint="Type your name..."
+                    android:paddingLeft="5dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="7dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="250dp"
+                    android:background="@drawable/bg_chat_right"
+                    android:layout_gravity="right"
+                    android:visibility="visible"
+                    android:padding="12dp"
+                    android:textSize="15dp"
+                    android:text="Hello everybody"
+                    android:textColor="#fff"
+                    android:id="@+id/tvChat"/>
+
+            <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:visibility="gone"
+                    android:background="@drawable/bg_chat_box"
+                    android:padding="5dp"
+                    android:id="@+id/tvName"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imgChat"/>
+
+        </RelativeLayout>
+
+</RelativeLayout>
